@@ -34,6 +34,7 @@ In the corrupt summary, Thomas High School fell into the $630-644 spending range
    ###### Figure 2.2 New School Spending
    ![PyCitySchools_orig_Spending](Resources/PyCitySchools_orig_Spending.png)
     
+    
 ###### Scores by school size
 Thomas High School falls under the Medium-size category, which includes enrollments of 1,000-2,000 students. Comparatively, the values changed in % Passing Math and % Passing Reading, which decreased from 94% and 97% to 88% and 91%, respectively. The % Overall Passing also decreased from 91% to 85%. 
     
@@ -42,6 +43,7 @@ Thomas High School falls under the Medium-size category, which includes enrollme
 
    ###### Figure 3.2 New School Size
    ![PyCitySchools_orig_Size](Resources/PyCitySchools_orig_Size.png)
+    
     
 ###### Scores by school type
 Thomas High School is a Charter School, so the Charter values are the only ones that changed. The overall average scores did not change, but the values did change in % Passing Math and % Passing Reading, which decreased from 94% and 97% to 90% and 93%, respectively. The % Overall Passing also decreased from 90% to 87%. 
