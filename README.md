@@ -13,7 +13,7 @@ The following screenshots depict the district summary analysis results for both 
 ###### Figure 1.2 New District Summary
 ![PyCitySchools_orig_District_Summary](Resources/PyCitySchools_orig_District_Summary.PNG)
 
-As seen above, this particular report was not greatly impacted by the corrupt data. The Average Math Score, % Passing Math, % Passing Reading, and the % Overall Passing values are merely .1 to 1 data point greater in the corrupt summary versus the new summary. This is not a major variance in the data.
+As seen above, this particular report was not greatly impacted by the corrupt data. The Average Math Score, % Passing Math, % Passing Reading, and the % Overall Passing values are merely 0.1 to 1 data point greater in the corrupt summary versus the new summary. This is not a major variance in the data.
 
 #### How is the school summary affected?
 The school summary is affected because in the new analysis, by setting the ninth-grade reading and math scores to NaN at Thomas High School, the school's average math and reading scores are both below the 70% passing grade, and so it does not appear in the school summary chart. No other schools are affected.
