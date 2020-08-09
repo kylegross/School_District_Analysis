@@ -8,10 +8,10 @@ When the school board notified the firm about the situation, the issue of data i
 The following screenshots depict the district summary analysis results for both the corrupted and "new" data sets.
 
 ###### Figure 1.1 Corrupt District Summary
-![PyCitySchools_NaN_District_Summary](School_District_Analysis/PyCitySchools_NaN_District_Summary.png)
+![PyCitySchools_NaN_District_Summary](Resources/PyCitySchools_NaN_District_Summary.png)
 
 ###### Figure 1.2 New District Summary
-![PyCitySchools_orig_District_Summary](School_District_Analysis/PyCitySchools_orig_District_Summary.png)
+![PyCitySchools_orig_District_Summary](Resources/PyCitySchools_orig_District_Summary.png)
 
 As seen above, this particular report was not greatly impacted by the corrupt data. The Average Math Score, % Passing Math, % Passing Reading, and the % Overall Passing values are merely .1 to 1 data point greater in the corrupt summary versus the new summary. This is not a major variance in the data.
 
@@ -29,19 +29,19 @@ By grade, the only math and reading scores affected are those belonging to ninth
 In the corrupt summary, Thomas High School fell into the $630-644 spending range bucket. In the new summary, the school falls into the same spending bucket. The coincinding scores by school spending changed in % Passing Math and % Passing Reading, which decreased from 73% and 84% to 67% and 77%, respectively. The % Overall Passing also decreased from 63% to 56%.
     
    ###### Figure 2.1 Corrupt School Spending
-   ![PyCitySchools_NaN_Spending](School_District_Analysis/PyCitySchools_NaN_Spending.png)
+   ![PyCitySchools_NaN_Spending](Resources/PyCitySchools_NaN_Spending.png)
 
    ###### Figure 2.2 New School Spending
-   ![PyCitySchools_orig_Spending](School_District_Analysis/PyCitySchools_orig_Spending.png)
+   ![PyCitySchools_orig_Spending](Resources/PyCitySchools_orig_Spending.png)
     
 ###### Scores by school size
 Thomas High School falls under the Medium-size category, which includes enrollments of 1,000-2,000 students. Comparatively, the values changed in % Passing Math and % Passing Reading, which decreased from 94% and 97% to 88% and 91%, respectively. The % Overall Passing also decreased from 91% to 85%. 
     
    ###### Figure 3.1 Corrupt School Size
-   ![PyCitySchools_NaN_Size](School_District_Analysis/PyCitySchools_NaN_Size.png)
+   ![PyCitySchools_NaN_Size](Resources/PyCitySchools_NaN_Size.png)
 
    ###### Figure 3.2 New School Size
-   ![PyCitySchools_orig_Size](School_District_Analysis/PyCitySchools_orig_Size.png)
+   ![PyCitySchools_orig_Size](Resources/PyCitySchools_orig_Size.png)
     
 ###### Scores by school type
 Thomas High School is a Charter School, so the Charter values are the only ones that changed. The overall average scores did not change, but the values did change in % Passing Math and % Passing Reading, which decreased from 94% and 97% to 90% and 93%, respectively. The % Overall Passing also decreased from 90% to 87%. 
